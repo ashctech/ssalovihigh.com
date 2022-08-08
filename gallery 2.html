@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="../../Downloads/Image-Slider-Using-only-HTML-CSS--master/Image-Slider-Using-only-HTML-CSS--master/style.css">
+    <script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+    </script>
+</head>
+<body onLoad="MM_preloadImages('home roll.png','depar roll.png','about roll.png','school roll.png','res roll.png','photo roll.png')">
+<table width="985" border="0" cellspacing="2">
+  <tr>
+    <td height="174" colspan="8"><img src="banner.png" width="1253" height="174" alt="banner"></td>
+  </tr>
+  <tr>
+    <td width="1">&nbsp;</td>
+    <td width="479">&nbsp;</td>
+    <td width="122"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','home roll.png',1)"><img src="home.png" alt="home" name="Image6" width="121" height="50" border="0"></a></td>
+    <td width="122"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('dep','','depar roll.png',1)"><img src="department.png" alt="dep" name="dep" width="121" height="50" border="0"></a></td>
+    <td width="122"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','about roll.png',1)"><img src="about us.png" name="Image8" width="121" height="50" border="0"></a></td>
+    <td width="122"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','school roll.png',1)"><img src="school proragmme.png" name="Image9" width="121" height="50" border="0"></a></td>
+    <td width="119"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','res roll.png',1)"><img src="resources.png" name="Image10" width="121" height="50" border="0"></a></td>
+    <td width="122"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','photo roll.png',1)"><img src="gallery.png" name="Image11" width="121" height="50" border="0"></a></td>
+  </tr>
+  <tr>
+    <td colspan="8"><div class="slider">
+      <div class="images">
+        <input type="radio" name="slide" id="img1" checked>
+        <input type="radio" name="slide" id="img2">
+        <input type="radio" name="slide" id="img3">
+        <input type="radio" name="slide" id="img4">
+        <img src="../../Downloads/Image-Slider-Using-only-HTML-CSS--master/Image-Slider-Using-only-HTML-CSS--master/1.jpg" class="m1" alt="img1"> <img src="../../Downloads/Image-Slider-Using-only-HTML-CSS--master/Image-Slider-Using-only-HTML-CSS--master/2.jpg" class="m2" alt="img2"> <img src="../../Downloads/Image-Slider-Using-only-HTML-CSS--master/Image-Slider-Using-only-HTML-CSS--master/3.jpg" class="m3" alt="img3"> <img src="../../Downloads/Image-Slider-Using-only-HTML-CSS--master/Image-Slider-Using-only-HTML-CSS--master/4.jpg" class="m4" alt="img4"></div>
+      <div class="dots">
+        <label for="img1"></label>
+        <label for="img2"></label>
+        <label for="img3"></label>
+        <label for="img4"></label>
+      </div>
+    </div></td>
+  </tr>
+  <tr>
+    <td colspan="4" bgcolor="#0B5464"><p>&nbsp;</p>
+    <p><strong>Follow us on </strong>:</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+    <td colspan="3" bgcolor="#0B5464"><p>Our Contact:</p>
+      <p>Emai: Salhigh@gmail.com</p>
+      <p>Phone: +67967998555</p>
+      <p>Our Location</p>
+      <p>16 street salovi</p>
+      <p>Nadi</p>
+    <p>Fiji Islands</p></td>
+    <td bgcolor="#0B5464">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
